@@ -16,7 +16,7 @@ using std::cout;
 //double u_init = 0;      //m/s
 double Gamma = 1.4; 
 double R_univ = 287.085635359116; // R_air
-const int i_max = 128;  // check with 32 cells
+const int i_max = 64;  
 double i_max_duplicate = i_max;
 double d_x = 2/(double(i_max));  //2/i_max+1 
 double CFL= 0.01;                  // for Euler explicit eqn use cfl <= 1 
